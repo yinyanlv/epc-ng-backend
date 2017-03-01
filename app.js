@@ -34,7 +34,6 @@ app.all('*', function (req, res, next) {
   req.method === 'OPTIONS' ? res.send(200) : next();
 });
 
-
 let router = new gu.Router(app, __dirname);
 
 routesMap(router);
