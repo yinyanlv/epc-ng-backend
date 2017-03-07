@@ -1,16 +1,16 @@
 let gu = require('guthrie-js');
+let selectModel = require('../../../models/selectModel');
 let selectController = new gu.controller.create();
 
 selectController.actions = {
-  index: {
-    GET: function (req, res) {
+  load: {
+    GET: function* (req, res) {
 
-      let selectName = req.params.id;
+      let collectionName = req.params.id;
+      let data = yield selectModel.getByCollectionName(collectionName);
 
       res.send({
-        data: {
-          success: true
-        }
+        data
       });
     }
   }

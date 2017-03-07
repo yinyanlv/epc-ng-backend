@@ -3,6 +3,7 @@ let db = require('../common/db');
 let user = db.model('user', new mongoose.Schema(), 'user');
 
 let userModel = {
+
   isExists(username, password) {
 
     return new Promise((resolve, reject) => {

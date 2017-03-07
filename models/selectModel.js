@@ -1,8 +1,26 @@
+let mongoose = require('mongoose');
+let db = require('../common/db');
 
-class SelectModel {
+let selectModel = {
 
-  static get(selectName) {
+  getByCollectionName(collectionName) {
 
+    let curModel = db.model(collectionName, new mongoose.Schema(), collectionName);
+
+    return new Promise((resolve, reject) => {
+
+      curModel.find({}, (err, docs) => {
+
+        if (err) {
+          reject(err);
+          return;
+        }
+
+        resolve(docs);
+      });
+    });
   }
-}
-module.exports = SelectModel;
+};
+
+module.exports = selectModel;
+

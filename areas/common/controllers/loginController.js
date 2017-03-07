@@ -4,7 +4,7 @@ let loginController = new gu.controller.create();
 
 loginController.actions = {
   index: {
-    POST: function*(req, res) {
+    POST: function* (req, res) {
 
       let isExists = yield userModel.isExists(req.body.username, req.body.password);
 
