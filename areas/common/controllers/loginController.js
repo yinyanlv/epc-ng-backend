@@ -1,23 +1,18 @@
 let gu = require('guthrie-js');
+let userModel = require('../../../models/userModel');
 let loginController = new gu.controller.create();
 
 loginController.actions = {
   index: {
-    POST: function (req, res) {
+    POST: function*(req, res) {
 
-      if (req.body.username === 'admin' && req.body.password === '111111') {
-        res.send({
-          data: {
-            success: true
-          }
-        });
-      } else {
-        res.send({
-          data: {
-            success: false
-          }
-        });
-      }
+      let isExists = yield userModel.isExists(req.body.username, req.body.password);
+
+      res.send({
+        data: {
+          success: isExists
+        }
+      });
     }
   }
 };

@@ -1,5 +1,8 @@
-let selectModel = {
 
-};
+class SelectModel {
 
-module.exports = selectModel;
+  static get(selectName) {
+
+  }
+}
+module.exports = SelectModel;

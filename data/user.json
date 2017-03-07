@@ -1,6 +1,7 @@
 [
  {
   "username": "yanlv.yin",
+  "password": "111111",
   "realName": "尹延律",
   "telephone": null,
   "mail": "yanlv.yin@servision.com.cn",
@@ -9,7 +10,6 @@
   "enterpriseCode": "SH-Servision",
   "enterpriseName": "上海事成软件股份有限公司",
   "enterpriseAddress": "浦东新区张江",
-  "userTypeName": "EPC管理用户",
-  "success": true
+  "userTypeName": "EPC管理用户"
  }
 ]

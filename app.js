@@ -6,10 +6,7 @@ let cookieParser = require('cookie-parser');
 let bodyParser = require('body-parser');
 let gu = require('guthrie-js');
 let routesMap = require('./routes/routesMap');
-let connectDb = require('./core/connectDb');
-let config = require('./config');
-
-connectDb(config.dbMap.mongoDb);
+let db = require('./common/db');
 
 let app = express();
 
@@ -31,7 +28,7 @@ app.all('*', function (req, res, next) {
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Accept, X-Requested-With');  // 必须匹配且不能使用*
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
 
-  req.method === 'OPTIONS' ? res.send(200) : next();
+  req.method === 'OPTIONS' ? res.sendStatus(200) : next();
 });
 
 let router = new gu.Router(app, __dirname);
