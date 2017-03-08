@@ -9,14 +9,16 @@ let selectModel = {
 
     return new Promise((resolve, reject) => {
 
-      curModel.find({}, (err, docs) => {
+      curModel.find({}, {
+        _id: 0
+      }, (err, docs) => {
 
         if (err) {
           reject(err);
           return;
         }
 
-        resolve(docs);
+        resolve(JSON.stringify(docs));
       });
     });
   }
