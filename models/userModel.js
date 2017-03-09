@@ -26,6 +26,24 @@ let userModel = {
         resolve(true);
       });
     });
+  },
+
+  getUserInfo(username) {
+
+    return new Promise((resolve, reject) => {
+
+      user.find({
+        username
+      }, (err, docs) => {
+
+        if (err) {
+          reject(err);
+          return;
+        }
+
+        resolve(JSON.stringify(docs[0]));
+      });
+    });
   }
 };
 

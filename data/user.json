@@ -1,10 +1,10 @@
 [
  {
-  "username": "yanlv.yin",
+  "username": "admin",
   "password": "111111",
-  "realName": "尹延律",
+  "realName": "超级管理员",
   "telephone": null,
-  "mail": "yanlv.yin@servision.com.cn",
+  "mail": "admin@servision.com.cn",
   "userType": 0,
   "expirationTime": 1577721600000,
   "enterpriseCode": "SH-Servision",
