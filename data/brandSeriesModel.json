@@ -1,0 +1,832 @@
+[
+ {
+  "code": "P01",
+  "name": "北京",
+  "series": [
+   {
+    "code": "B40V",
+    "name": "BJ40",
+    "imageFile": "http://res2.dev.servision.com.cn/baic/img/series/2cd129bcafbf49bf8d4ca5bd58d491be.png",
+    "modelGroups": [
+     {
+      "code": "B40VB1K",
+      "name": "2.4L 5MT 基本型",
+      "models": [
+       {
+        "code": "B40VCDB1K001",
+        "name": " 国4 不带限滑差速器R16铝轮"
+       },
+       {
+        "code": "B40VCDB1Z001",
+        "name": " 国5 不带限滑差速器R16铝轮"
+       }
+      ]
+     },
+     {
+      "code": "B40VC1K",
+      "name": "2.4L 5MT 舒适型",
+      "models": [
+       {
+        "code": "B40VCDC1K001",
+        "name": " 国4 带限滑差速器R17铝轮"
+       },
+       {
+        "code": "B40VCDC1Z001",
+        "name": " 国5 带限滑差速器R17铝轮"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "B40L",
+    "name": "B40L",
+    "imageFile": "http://res2.dev.servision.com.cn/baic/img/series/cc0cfe46157d49d6b248fff0da0eeb9d.png",
+    "modelGroups": [
+     {
+      "code": "B40VB1K",
+      "name": "2.4L 5MT 基本型",
+      "models": [
+       {
+        "code": "B40VCDB1K001",
+        "name": " 国4 不带限滑差速器R16铝轮"
+       },
+       {
+        "code": "B40VCDB1Z001",
+        "name": " 国5 不带限滑差速器R16铝轮"
+       }
+      ]
+     },
+     {
+      "code": "B40VC1K",
+      "name": "2.4L 5MT 舒适型",
+      "models": [
+       {
+        "code": "B40VCDC1K001",
+        "name": " 国4 带限滑差速器R17铝轮"
+       },
+       {
+        "code": "B40VCDC1Z001",
+        "name": " 国5 带限滑差速器R17铝轮"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "B80C",
+    "name": "B80C",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/45153e06b5d6474ab7a71f1efe662706.png",
+    "modelGroups": [
+     {
+      "code": "B80CP5T",
+      "name": "2.3T 6AT 尊贵型",
+      "models": [
+       {
+        "code": "B80CFFP5T001",
+        "name": "4驱 四驱"
+       }
+      ]
+     },
+     {
+      "code": "B80CP5Y",
+      "name": "2.3T 6MT 尊贵型",
+      "models": [
+       {
+        "code": "B80CFFP5Y001",
+        "name": "4驱 四驱"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "B80D",
+    "name": "B80D",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/749fd7c09b754829a1a75f0221de25a6.png",
+    "modelGroups": [
+     {
+      "code": "B80DE1V",
+      "name": "柴油版 2.8T 6MT 豪华型",
+      "models": [
+       {
+        "code": "B80DFDE1V001",
+        "name": "4驱 2.8TDi四驱两门"
+       },
+       {
+        "code": "B80DFDE1V002",
+        "name": "4驱 2.8TDi四驱两门预热系统"
+       },
+       {
+        "code": "B80DFFE1V001",
+        "name": "4驱 2.8TDi四驱四门"
+       },
+       {
+        "code": "B80DFFE1V002",
+        "name": "4驱 2.8柴油 四门带预热系统"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "P02",
+  "name": "绅宝",
+  "series": [
+   {
+    "code": "C30D",
+    "name": "E系列两厢",
+    "imageFile": "http://res2.dev.servision.com.cn/baic/img/series/17d9719180774a8cb96ba9aa5ef8cd31.png",
+    "modelGroups": [
+     {
+      "code": "C30DC1A",
+      "name": "1.3L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C30DEBC2J005",
+        "name": " 国4 天窗版CROSS"
+       },
+       {
+        "code": "C30DEBC2M005",
+        "name": " 国5 天窗版CROSS"
+       }
+      ]
+     },
+     {
+      "code": "C30DD1C",
+      "name": "1.5L 5MT 时尚型",
+      "models": [
+       {
+        "code": "C30DEBD2K005",
+        "name": " 国4 时尚版CROSS6.5寸屏"
+       },
+       {
+        "code": "C30DEBD2N005",
+        "name": " 国5 时尚版CROSS6.5寸屏"
+       }
+      ]
+     },
+     {
+      "code": "C30DD1D",
+      "name": "1.5L 4AT 时尚型",
+      "models": [
+       {
+        "code": "C30DEBD2L009",
+        "name": " 国4 时尚版CROSS6.5寸屏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "D20-2",
+    "name": "D20两厢",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/90a125d43f6440278b065db69933ddbc.png",
+    "modelGroups": [
+     {
+      "code": "D202B1A",
+      "name": "1.3L 5MT 基本型",
+      "models": [
+       {
+        "code": "C30DEBB2M003",
+        "name": "国5 收音机"
+       }
+      ]
+     },
+     {
+      "code": "D202C1A",
+      "name": "1.3L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C30DEBC2J003",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C30DEBC2J004",
+        "name": "国4 天窗版收音机"
+       },
+       {
+        "code": "C30DEBC2M003",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C30DEBC2M004",
+        "name": "国5 天窗版收音机"
+       },
+       {
+        "code": "C30DEBC2M006",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C30DEBC2M007",
+        "name": "国5 天窗版收音机"
+       }
+      ]
+     },
+     {
+      "code": "D202C1C",
+      "name": "1.5L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C30DEBC2K006",
+        "name": "国4 天窗版收音机"
+       },
+       {
+        "code": "C30DEBC2K007",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C30DEBC2N006",
+        "name": "国5 天窗版收音机"
+       },
+       {
+        "code": "C30DEBC2N007",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C30DEBC2N010",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C30DEBC2N011",
+        "name": "国5 天窗版收音机"
+       }
+      ]
+     },
+     {
+      "code": "D202C1D",
+      "name": "1.5L 4AT 舒适型",
+      "models": [
+       {
+        "code": "C30DEBC2L005",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C30DEBC2P005",
+        "name": "国5 收音机"
+       }
+      ]
+     },
+     {
+      "code": "D202D1C",
+      "name": "1.5L 5MT 时尚型",
+      "models": [
+       {
+        "code": "C30DEBD2K003",
+        "name": "国4 6.5寸屏"
+       },
+       {
+        "code": "C30DEBD2N003",
+        "name": "国5 6.5寸屏"
+       },
+       {
+        "code": "C30DEBD2N008",
+        "name": "国5 6.5寸屏"
+       }
+      ]
+     },
+     {
+      "code": "D202D1D",
+      "name": "1.5L 4AT 时尚型",
+      "models": [
+       {
+        "code": "C30DEBD2L005",
+        "name": "国4 6.5寸屏"
+       },
+       {
+        "code": "C30DEBD2P005",
+        "name": "国5 6.5寸屏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "D20-3",
+    "name": "D20 三厢",
+    "imageFile": "http://res2.dev.servision.com.cn/baic/img/series/4df81e195239469898d4543abfe5356b.png",
+    "modelGroups": [
+     {
+      "code": "D203C1A",
+      "name": "1.3L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C31DECC2J003",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C31DECC2M003",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C31DECC2M004",
+        "name": "国5 天窗版收音机"
+       },
+       {
+        "code": "C31DECC2M007",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C31DECC2M008",
+        "name": "国5 天窗版收音机"
+       }
+      ]
+     },
+     {
+      "code": "D203B1A",
+      "name": "1.3L 5MT 基本型",
+      "models": [
+       {
+        "code": "C31DECB2J002",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C31DECB2M004",
+        "name": "国5 收音机"
+       }
+      ]
+     },
+     {
+      "code": "D203C1C",
+      "name": "1.5L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C31DECC2K006",
+        "name": "国4 天窗版收音机"
+       },
+       {
+        "code": "C31DECC2K007",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C31DECC2N006",
+        "name": "国5 天窗版收音机"
+       },
+       {
+        "code": "C31DECC2N007",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C31DECC2N012",
+        "name": "国5 收音机"
+       },
+       {
+        "code": "C31DECC2N013",
+        "name": "国5 天窗版收音机"
+       }
+      ]
+     },
+     {
+      "code": "D203C1D",
+      "name": "1.5L 4AT 舒适型",
+      "models": [
+       {
+        "code": "C31DECC2L005",
+        "name": "国4 收音机"
+       },
+       {
+        "code": "C31DECC2P005",
+        "name": "国5 收音机"
+       }
+      ]
+     },
+     {
+      "code": "D203D1C",
+      "name": "1.5L 5MT 时尚型",
+      "models": [
+       {
+        "code": "C31DECD2K001",
+        "name": "国4 6.5寸屏"
+       },
+       {
+        "code": "C31DECD2N003",
+        "name": "国5 6.5寸屏"
+       },
+       {
+        "code": "C31DECD2N007",
+        "name": "国5 6.5寸屏"
+       }
+      ]
+     },
+     {
+      "code": "D203D1D",
+      "name": "1.5L 4AT 时尚型",
+      "models": [
+       {
+        "code": "C31DECD2L005",
+        "name": "国4 6.5寸屏"
+       },
+       {
+        "code": "C31DECD2L007",
+        "name": "国4 选装包6.5寸屏米色内饰"
+       },
+       {
+        "code": "C31DECD2P005",
+        "name": "国5 6.5寸屏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "C50E",
+    "name": "D50",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/5b6697901e2b45f1a92e8c2630d0ad8b.png",
+    "modelGroups": [
+     {
+      "code": "C50EB1C",
+      "name": "1.5L 5MT 基本型",
+      "models": [
+       {
+        "code": "C50EDCB1C006",
+        "name": " 国4 CNG版出租车"
+       },
+       {
+        "code": "C50EDCB1C013",
+        "name": " 国4 CNG版185轮胎小尺寸备胎出租车"
+       },
+       {
+        "code": "C50EDCB1C014",
+        "name": " 国4 CNG版185轮胎全尺寸备胎出租车夏"
+       },
+       {
+        "code": "C50EDCB1C015",
+        "name": " 国4 白绿出租车"
+       },
+       {
+        "code": "C50EDCB2Q005",
+        "name": " 国5 出租车"
+       },
+       {
+        "code": "C50EDCB2Q012",
+        "name": " 国5 全185轮胎全尺寸备胎出租车"
+       },
+       {
+        "code": "C50EDCB2Q013",
+        "name": " 国5 195轮胎全尺寸备胎上海出租车"
+       },
+       {
+        "code": "C50EECB2N001",
+        "name": " 国5 "
+       },
+       {
+        "code": "C50EECB4F001",
+        "name": " 国5 "
+       },
+       {
+        "code": "C50EFCB1C013",
+        "name": " 国4 CNG银建镇江出租车"
+       },
+       {
+        "code": "C50EFCB1C014",
+        "name": " 国4 景德镇出租车小尺寸备胎加强型刹车片外漏式锁芯春绿"
+       },
+       {
+        "code": "C50EFCB2N001",
+        "name": " 国5 后装CD"
+       },
+       {
+        "code": "C50EFCB4F001",
+        "name": " 国5 "
+       }
+      ]
+     },
+     {
+      "code": "C50EB1W",
+      "name": "1.5L CVT 基本型",
+      "models": [
+       {
+        "code": "C50EDCB2R005",
+        "name": " 国5 标准超值导航版DVD后装"
+       }
+      ]
+     },
+     {
+      "code": "C50EC1C",
+      "name": "1.5L 5MT 舒适型",
+      "models": [
+       {
+        "code": "C50EECC2N005",
+        "name": " 国5 DVD后装"
+       },
+       {
+        "code": "C50EFCC2N002",
+        "name": " 国5 2015款"
+       }
+      ]
+     },
+     {
+      "code": "C50EC1W",
+      "name": "1.5L CVT 舒适型",
+      "models": [
+       {
+        "code": "C50EFCC2R001",
+        "name": " 国5 2015款"
+       }
+      ]
+     },
+     {
+      "code": "C50ED1C",
+      "name": "1.5L 5MT 时尚型",
+      "models": [
+       {
+        "code": "C50EFCD2N001",
+        "name": " 国5 2015款"
+       },
+       {
+        "code": "C50EFCD4F001",
+        "name": " 国5 "
+       }
+      ]
+     },
+     {
+      "code": "C50ED1W",
+      "name": "1.5L CVT 时尚型",
+      "models": [
+       {
+        "code": "C50EFCD2R001",
+        "name": " 国5 2015款"
+       }
+      ]
+     },
+     {
+      "code": "C50EE1W",
+      "name": "1.5L CVT 豪华型",
+      "models": [
+       {
+        "code": "C50EFCE2R001",
+        "name": " 国5 2015款"
+       }
+      ]
+     },
+     {
+      "code": "C50EN4E",
+      "name": "1.5L 5MT 导航版",
+      "models": [
+       {
+        "code": "C50EFCN4F001",
+        "name": " 国5 超值导航版"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "WEIWANG",
+  "name": "北汽威旺",
+  "series": [
+   {
+    "code": "C61XM06",
+    "name": "S50",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/690cdea766ba4c0181f67061126a8892.png",
+    "modelGroups": [
+     {
+      "code": "S504A91TC",
+      "name": "欢动精英型/4A91T",
+      "models": [
+       {
+        "code": "C61XGUC4T006",
+        "name": "4A91T/6MT/国V 欢动精英型 9英寸中控屏+黑色仪表板+亮棕色皮质座椅"
+       }
+      ]
+     },
+     {
+      "code": "S504A91TE",
+      "name": "欢动尊贵型/4A91T",
+      "models": [
+       {
+        "code": "C61XGUE4T001",
+        "name": "4A91T/6MT/国V 欢动尊贵型 黑色仪表板+亮棕色座椅"
+       }
+      ]
+     },
+     {
+      "code": "S504A91TU",
+      "name": "乐动豪华型/4A91T",
+      "models": [
+       {
+        "code": "C61XGUU4T001",
+        "name": "4A91T/6MT/国V 乐动豪华型 深棕色上仪表板+黑色下仪表板+深棕色座椅"
+       }
+      ]
+     },
+     {
+      "code": "S504A91TM",
+      "name": "乐动尊享型/4A91T",
+      "models": [
+       {
+        "code": "C61XGUM4T001",
+        "name": "4A91T/6MT/国V 乐动尊享型 深棕色上仪表板+黑色下仪表板+深棕色座椅"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "code": "M20",
+    "name": "M20（银翔）",
+    "imageFile": "http: //res2.dev.servision.com.cn/baic/img/series/df559e1ca52e47c5b5215e4ecadb4ebf.png",
+    "modelGroups": [
+     {
+      "code": "M20415AK",
+      "name": "经济型/415A",
+      "models": [
+       {
+        "code": "M30TDLB9A010",
+        "name": "经济型8人座"
+       }
+      ]
+     },
+     {
+      "code": "M20415AL",
+      "name": "实用型/415A",
+      "models": [
+       {
+        "code": "M40SEVL3A001",
+        "name": "实用型5人座"
+       },
+       {
+        "code": "M30TDVB9A008",
+        "name": "实用型5人座"
+       },
+       {
+        "code": "M30TDVB9E009",
+        "name": "实用型5人座 京V"
+       },
+       {
+        "code": "M30TDLB9A009",
+        "name": "实用型8人座"
+       },
+       {
+        "code": "M40SELL3A001",
+        "name": "实用型7人座"
+       },
+       {
+        "code": "M30TDLB9A007",
+        "name": "实用型7人座"
+       },
+       {
+        "code": "M30TDLB9E008",
+        "name": "实用型7人座 京V"
+       },
+       {
+        "code": "M40SELL5E014",
+        "name": "实用型7人座 国V"
+       },
+       {
+        "code": "M40SELL3A003",
+        "name": "实用型8人座"
+       },
+       {
+        "code": "M40SELL5E013",
+        "name": "实用型8人座 国V"
+       },
+       {
+        "code": "M30TDLB9E010",
+        "name": "实用型8人座 京V"
+       }
+      ]
+     },
+     {
+      "code": "M20415BB",
+      "name": "基本型/415B",
+      "models": [
+       {
+        "code": "M30TDLB9B001",
+        "name": "基本型7人座"
+       },
+       {
+        "code": "M30TDLB9B003",
+        "name": "基本型8人座"
+       },
+       {
+        "code": "M30TDVB9B002",
+        "name": "基本型5人座"
+       }
+      ]
+     },
+     {
+      "code": "M20415BS",
+      "name": "标准型/415B",
+      "models": [
+       {
+        "code": "M30TDLB9B004",
+        "name": "标准型7人座"
+       },
+       {
+        "code": "M30TDLB9B006",
+        "name": "标准型8人座"
+       },
+       {
+        "code": "M30TDLB9F004",
+        "name": "标准型7人座 京V"
+       },
+       {
+        "code": "M30TDVB9B005",
+        "name": "标准型5人座"
+       },
+       {
+        "code": "M30TDVB9F005",
+        "name": "标准型5人座 京V"
+       },
+       {
+        "code": "M40SELS3B001",
+        "name": "标准型7人座"
+       },
+       {
+        "code": "M40SEVS3B001",
+        "name": "标准型5人座"
+       }
+      ]
+     },
+     {
+      "code": "M20415BC",
+      "name": "舒适型/415B",
+      "models": [
+       {
+        "code": "M30TDLC9B001",
+        "name": "舒适型7人座"
+       },
+       {
+        "code": "M30TDLC9B003",
+        "name": "舒适型8人座"
+       },
+       {
+        "code": "M30TDVC9B002",
+        "name": "舒适型5人座"
+       },
+       {
+        "code": "M40SELC3B001",
+        "name": "舒适型7人座"
+       },
+       {
+        "code": "M40SELC3B005",
+        "name": "舒适型8人座"
+       },
+       {
+        "code": "M40SELC3C014",
+        "name": "舒适型7人座 国V"
+       },
+       {
+        "code": "M40SEVC3B001",
+        "name": "舒适型5人座"
+       }
+      ]
+     },
+     {
+      "code": "M20415BE",
+      "name": "豪华型/415B",
+      "models": [
+       {
+        "code": "M30TDLE9B001",
+        "name": "豪华型7人座"
+       },
+       {
+        "code": "M30TDLE9B003",
+        "name": "豪华型8人座"
+       },
+       {
+        "code": "M30TDLE9F001",
+        "name": "豪华型7人座 京V"
+       },
+       {
+        "code": "M30TDVE9B002",
+        "name": "豪华型5人座"
+       },
+       {
+        "code": "M40SELE3B001",
+        "name": "豪华型7人座"
+       },
+       {
+        "code": "M40SELE3B005",
+        "name": "豪华型8人座"
+       },
+       {
+        "code": "M40SEVE3B001",
+        "name": "豪华型5人座"
+       }
+      ]
+     },
+     {
+      "code": "M20415BH",
+      "name": "超豪华型/415B",
+      "models": [
+       {
+        "code": "M40SELH3B001",
+        "name": "超豪华型7人座"
+       },
+       {
+        "code": "M40SELH3B005",
+        "name": "超豪华型8人座"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

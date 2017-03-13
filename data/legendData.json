@@ -1,0 +1,130 @@
+[
+ {
+  "brandCode": "P01",
+  "seriesCode": "B40V",
+  "modelGroupCode": "B40VB1K",
+  "imageCode": "1101-C01",
+  "list": [
+   {
+    "partNo": "M00000107",
+    "partName": "G4CA-C06汽油机总成",
+    "callout": "A10",
+    "qty": "1",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   }
+  ]
+ },
+ {
+  "brandCode": "P01",
+  "seriesCode": "B40V",
+  "modelGroupCode": "B40VB1K",
+  "imageCode": "1107-C01",
+  "list": [
+   {
+    "partNo": "B40123200020AA",
+    "partName": "变速箱软垫总成",
+    "callout": "A10",
+    "qty": "1",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   },
+   {
+    "partNo": "M00000149",
+    "partName": "FD支架-右",
+    "callout": "A11",
+    "qty": "1",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   },
+   {
+    "partNo": "912000239",
+    "partName": "组合螺栓",
+    "callout": "A13",
+    "qty": "4",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   },
+   {
+    "partNo": "M00000651",
+    "partName": "FD软垫总成",
+    "callout": "B10",
+    "qty": "1",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   },
+   {
+    "partNo": "M00000148",
+    "partName": "FD支架-左",
+    "callout": "B11",
+    "qty": "1",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   },
+   {
+    "partNo": "Q1861025TF61",
+    "partName": "六角法兰面螺栓-加大系列",
+    "callout": "C13",
+    "qty": "4",
+    "usageNote": null,
+    "partNote": null,
+    "hasSubstitute": false,
+    "hasSubstituteGroup": false,
+    "hasPhoto": false,
+    "price": null,
+    "statusCode": "Y",
+    "startDate": "2013-12-20",
+    "endDate": null,
+    "matchThisVin": false
+   }
+  ]
+ }
+]
