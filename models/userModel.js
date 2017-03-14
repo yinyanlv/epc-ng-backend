@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 let db = require('../common/db');
-let user = db.model('user', new mongoose.Schema(), 'user');
+let userDbModel = db.model('user', new mongoose.Schema(), 'user');
 
 let userModel = {
 
@@ -8,7 +8,7 @@ let userModel = {
 
     return new Promise((resolve, reject) => {
 
-      user.find({
+      userDbModel.find({
         username,
         password
       }, (err, docs) => {
@@ -32,7 +32,7 @@ let userModel = {
 
     return new Promise((resolve, reject) => {
 
-      user.find({
+      userDbModel.find({
         username
       }, (err, docs) => {
 

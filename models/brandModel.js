@@ -1,15 +1,15 @@
 let mongoose = require('mongoose');
 let db = require('../common/db');
+let brandDbModel = db.model('brand', new mongoose.Schema(), 'brand');
 
-let selectModel = {
+let brandModel = {
 
-  getByCollectionName(collectionName) {
-
-    let curDbModel = db.model(collectionName, new mongoose.Schema(), collectionName);
+  getBrandSeriesList() {
 
     return new Promise((resolve, reject) => {
 
-      curDbModel.find({}, {
+      brandDbModel.find({
+      }, {
         _id: 0
       }, (err, docs) => {
 
@@ -18,11 +18,11 @@ let selectModel = {
           return;
         }
 
-        resolve(JSON.stringify(docs));
+        resolve(docs);
       });
     });
   }
 };
 
-module.exports = selectModel;
+module.exports = brandModel;
 

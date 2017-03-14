@@ -1,12 +1,14 @@
 let gu = require('guthrie-js');
-let brandSeriesModelModel= require('../../../models/brandSeriesModelModel');
+let modelModel= require('../../../models/modelModel');
 let crumbsController = new gu.controller.create();
 
 crumbsController.actions = {
   load: {
     GET: function* (req, res) {
 
-      let data = yield brandSeriesModelModel.getCrumbs(req.query);
+      if (!req.query.brandCode) return res.send({data: null});
+
+      let data = yield modelModel.getCrumbs(req.query);
 
       res.send({
         data

@@ -1,12 +1,12 @@
 let gu = require('guthrie-js');
-let brandSeriesModelModel= require('../../../models/brandSeriesModelModel');
+let brandModel= require('../../../models/brandModel');
 let seriesController = new gu.controller.create();
 
 seriesController.actions = {
   getList: {
     GET: function* (req, res) {
 
-      let data = yield brandSeriesModelModel.getBrandSeriesList();
+      let data = yield brandModel.getBrandSeriesList();
 
       res.send({
         data

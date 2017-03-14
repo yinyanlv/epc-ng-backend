@@ -1,12 +1,15 @@
 let gu = require('guthrie-js');
-let brandSeriesModelModel= require('../../../models/brandSeriesModelModel');
+let modelGroupModel= require('../../../models/modelGroupModel');
 let modelController = new gu.controller.create();
 
 modelController.actions = {
   getList: {
     GET: function* (req, res) {
 
-      let data = yield brandSeriesModelModel.getModelList(req.query);
+      if (!req.query.brandCode) return res.send({data: null});
+      if (!req.query.seriesCode) return res.send({data: null});
+
+      let data = yield modelGroupModel.getModelList(req.query);
 
       res.send({
         data
