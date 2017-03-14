@@ -8,7 +8,9 @@ let modelGroupModel = {
 
     return new Promise((resolve, reject) => {
 
-      modelGroupDbModel.find(params, (err, docs) => {
+      modelGroupDbModel.find(params, {
+        '_id': 0
+      }, (err, docs) => {
 
         if (err) {
           reject(err);

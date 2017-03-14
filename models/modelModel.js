@@ -7,16 +7,28 @@ let modelModel = {
   getCrumbs(params) {
 
     let resultConfig = {
-      '_id': 0,
-      'brandCode': !!params.brandCode,
-      'brandName': !!params.brandCode,
-      'seriesCode': !!params.seriesCode,
-      'seriesName': !!params.seriesCode,
-      'modelGroupCode': !!params.modelGroupCode,
-      'modelGroupName': !!params.modelGroupCode,
-      'modelCode': !!params.modelCode,
-      'modelName': !!params.modelCode
+      '_id': 0
     };
+
+    if (params.brandCode) {
+      resultConfig.brandCode = 1;
+      resultConfig.brandName = 1;
+    }
+
+    if (params.seriesCode) {
+      resultConfig.seriesCode = 1;
+      resultConfig.seriesName = 1;
+    }
+
+    if (params.modelGroupCode) {
+      resultConfig.modelGroupCode = 1;
+      resultConfig.modelGroupName = 1;
+    }
+
+    if (params.modelCode) {
+      resultConfig.modelCode = 1;
+      resultConfig.modelName = 1;
+    }
 
     return new Promise((resolve, reject) => {
 
@@ -27,7 +39,7 @@ let modelModel = {
           return;
         }
 
-        resolve(docs);
+        resolve(docs[0]);
       });
     });
   }

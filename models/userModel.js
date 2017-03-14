@@ -11,6 +11,8 @@ let userModel = {
       userDbModel.find({
         username,
         password
+      }, {
+        '_id': 0
       }, (err, docs) => {
 
         if (err) {
@@ -34,6 +36,8 @@ let userModel = {
 
       userDbModel.find({
         username
+      }, {
+        '_id': 0
       }, (err, docs) => {
 
         if (err) {
