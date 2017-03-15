@@ -21,6 +21,26 @@ let selectModel = {
         resolve(JSON.stringify(docs));
       });
     });
+  },
+
+  getByCollectionNameWithQuery(collectionName, params) {
+
+    let curDbModel = db.model(collectionName, new mongoose.Schema(), collectionName);
+
+    return new Promise((resolve, reject) => {
+
+      curDbModel.find(params, {
+        _id: 0
+      }, (err, docs) => {
+
+        if (err) {
+          reject(err);
+          return;
+        }
+
+        resolve(JSON.stringify(docs));
+      });
+    });
   }
 };
 

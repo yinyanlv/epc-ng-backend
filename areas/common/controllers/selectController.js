@@ -17,6 +17,20 @@ selectController.actions = {
         data
       });
     }
+  },
+  loadWithQuery: {
+    GET: function* (req, res) {
+
+      let collectionName = req.params.id;
+      let data = yield selectModel.getByCollectionNameWithQuery(collectionName, req.query);
+
+      let temp = JSON.parse(data);
+      data = selectMapping(temp);
+
+      res.send({
+        data
+      });
+    }
   }
 };
 
