@@ -23,15 +23,19 @@ let selectModel = {
     });
   },
 
-  getByCollectionNameWithQuery(collectionName, params) {
+  getByCollectionNameWithQuery(collectionName, params, resultConfig) {
 
     let curDbModel = db.model(collectionName, new mongoose.Schema(), collectionName);
+
+    if (!resultConfig) {
+      resultConfig = {};
+    }
 
     return new Promise((resolve, reject) => {
 
       curDbModel.find(params, {
         _id: 0
-      }, (err, docs) => {
+      }, resultConfig, (err, docs) => {
 
         if (err) {
           reject(err);
