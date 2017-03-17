@@ -8,5 +8,5 @@ mongoimport -d epc-ng -c model --type json --file ./data/model.json --drop --jso
 mongoimport -d epc-ng -c database --type json --file ./data/database.json --drop --jsonArray
 mongoimport -d epc-ng -c query --type json --file ./data/query.json --drop --jsonArray
 mongoimport -d epc-ng -c group --type json --file ./data/group.json --drop --jsonArray
-mongoimport -d epc-ng -c legend --type json --file ./data/legend.json --drop --jsonArray
+mongoimport -d epc-ng -c usage --type json --file ./data/usage.json --drop --jsonArray
 pause
