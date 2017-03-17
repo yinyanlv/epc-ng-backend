@@ -14,8 +14,8 @@
       "svgFilename": "1101-C01.svg",
       "svgFilenameCode": "1101-C01",
       "merge": false,
-      "svgFile": "http://res2.dev.servision.com.cn/baic/img/legend/1101-C01.svg",
-      "gifFile": "http://res2.dev.servision.com.cn/baic/img/legend/1101-C01.jpg"
+      "svgFile": "http://localhost:3000/images/1101-C01.svg",
+      "gifFile": "http://localhost:3000/images/1101-C01.jpg"
      }
     ]
    },
@@ -30,8 +30,8 @@
       "svgFilename": "1107-C01.svg",
       "svgFilenameCode": "1107-C01",
       "merge": false,
-      "svgFile": "http://res2.dev.servision.com.cn/baic/img/legend/1107-C01.svg",
-      "gifFile": "http://res2.dev.servision.com.cn/baic/img/legend/1107-C01.jpg"
+      "svgFile": "http://localhost:3000/images/1107-C01.svg",
+      "gifFile": "http://localhost:3000/images/1107-C01.jpg"
      }
     ]
    }
@@ -52,8 +52,8 @@
       "svgFilename": "2101-C01.svg",
       "svgFilenameCode": "2101-C01",
       "merge": false,
-      "svgFile": "http://res2.dev.servision.com.cn/baic/img/legend/2101-C01.svg",
-      "gifFile": "http://res2.dev.servision.com.cn/baic/img/legend/2101-C01.jpg"
+      "svgFile": "http://localhost:3000/images/2101-C01.svg",
+      "gifFile": "http://localhost:3000/images/2101-C01.jpg"
      }
     ]
    },
@@ -68,8 +68,8 @@
       "svgFilename": "2102-C01.svg",
       "svgFilenameCode": "2102-C01",
       "merge": false,
-      "svgFile": "http://res2.dev.servision.com.cn/baic/img/legend/2102-C01.svg",
-      "gifFile": "http://res2.dev.servision.com.cn/baic/img/legend/2102-C01.jpg"
+      "svgFile": "http://localhost:3000/images/2102-C01.svg",
+      "gifFile": "http://localhost:3000/images/2102-C01.jpg"
      }
     ]
    }
