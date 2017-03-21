@@ -2,7 +2,6 @@
 #### 依赖
 - node >= 6.9.*
 - mongodb
-- epc-ng  （前端页面）
 #### 启动
 ```
   1、启动mongodb
