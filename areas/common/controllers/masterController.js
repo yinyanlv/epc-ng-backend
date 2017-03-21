@@ -5,7 +5,7 @@ masterController.actions = {
   index: {
     GET: function (req, res) {
 
-      this.viewBag().title = 'epc-ng';
+      this.viewBag().title = 'epc-ng-server';
 
       res.render('master/index');
     }
