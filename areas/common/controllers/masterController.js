@@ -7,7 +7,7 @@ masterController.actions = {
 
       this.viewBag().title = 'epc-ng-server';
 
-      res.redirect('index.html');
+      res.render('master/index');
     }
   }
 };

@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= viewBag.title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= viewBag.title %></h1>
-    <p>Welcome to <%= viewBag.title %></p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>epc ng</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <base href="/">
+  <link href="styles.b13f892227df4a0ba0ea.bundle.css" rel="stylesheet"/></head>
+<body>
+<app-root>
+  <img src="assets/images/app_loading.gif" style="position: absolute;left:50%;top:50%;margin-left:-40px;margin-top:-40px;">
+</app-root>
+
+<script type="text/javascript" src="assets/scripts/libs/public/require-2.0.6.min.js"></script>
+<script type="text/javascript">
+  requirejs.config({
+    baseUrl: './assets/scripts/',
+    waitSeconds:30,
+    paths: {
+      jquery: 'libs/public/jquery-1.11.3.min.js',
+      json2: 'libs/public/json2.js',
+      domReady: 'libs/public/domReady.js',
+      text: "libs/public/text.min.js",
+      showLoading: "component/public/showLoading/jquery.showLoading.min.js",
+      jquerySvgZoomDrag: 'component/private/svgzoomdrag/js/jquery.svgzoomdrag.js',
+      jquerySvgHotpoint: 'component/private/svghotpoint/js/jquery.svghotpoint.js',
+      scrollIntoView: "libs/public/jquery.scrollIntoView.js",
+      d3: "component/public/d3/d3.v3.min.js",
+      snap: "component/public/snapSvg/snap.svg.js",
+      mousewheel: "libs/public/jquery.mousewheel.js",
+      normalize: "libs/public/normalize.js"
+    },
+    shim: {
+      jquery:{
+        exports:"$"
+      },
+      scrollIntoView:['jquery'],
+      jquerySvgZoomDrag: ['jquery', 'showLoading'],
+      jquerySvgHotpoint: ['jquery'],
+      mousewheel: ['jquery'],
+      showLoading: ['jquery']
+    }
+  });
+
+</script>
+<script type="text/javascript" src="inline.dcf63e3e63ec6fe2caca.bundle.js"></script><script type="text/javascript" src="vendor.d52e9efe830275ca3bad.bundle.js"></script><script type="text/javascript" src="main.4c926a606cebf7070ace.bundle.js"></script></body>
 </html>
