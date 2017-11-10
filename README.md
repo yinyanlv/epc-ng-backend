@@ -1,4 +1,4 @@
-## epc-ng-server
+## epc-ng-backend
 #### 依赖
 - node >= 6.9.*
 - mongodb
